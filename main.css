@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  flex-shrink: 5;
+  flex-grow: 5;
+  text-decoration: none;
+  box-sizing: content-box;
+    font-size: xx-large;
+}
+
+body {
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Krona One', sans-serif;
+}
+
+section {
+  width: 100vw;
+  height: 350px;
+  display: flex;
+}
+
+nav {
+  background-color: black;
+  color: white;
+}
+li {
+ 
+  text-align: center;
+  list-style: none;
+}
+.img1 {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.p1,.p2 {
+ padding:10px;
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 10rem;
+  box-sizing: border-box;
+  justify-content: center;
+  font-size: xx-large;
+  color: red;
+  align-items: center;
+}
+.p2{
+  margin:0px;
+}
+ 
+button {
+  width: 200px;
+  position:fixed;
+  flex-wrap: wrap;
+  right: 16px;
+  bottom: 16px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  background-color: black;
+}
+a {
+  color: red;
+}
+ img{
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  display: flex;
+ }
