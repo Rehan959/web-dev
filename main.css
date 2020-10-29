@@ -14,7 +14,7 @@ body {
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
-  font-family: 'Krona One', sans-serif;
+ 
 }
 
 section {
@@ -26,6 +26,7 @@ section {
 nav {
   background-color: black;
   color: white;
+  font-family: 'Krona One', sans-serif;
 }
 li {
  
